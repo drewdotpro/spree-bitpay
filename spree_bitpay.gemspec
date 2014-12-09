@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.test_files    = Dir["spec/**/*"]
   s.require_paths = ["lib"]
 
-  s.add_dependency 'rails', '4.1.8'
-  s.add_dependency 'spree', '~> 2.4.2'
+  s.add_dependency 'rails', '4.0.12'
+  s.add_dependency 'spree', '~> 2.2.0'
   s.add_dependency 'spree_auth_devise'
   s.add_dependency 'bitpay-client', '~> 0.1.3'
   
